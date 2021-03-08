@@ -1,0 +1,22 @@
+{
+    "sections":
+    {
+        "home": {
+            "id": "home",
+            "heading": "Hello! Zsigmond István vagyok,",
+            "paragraph": "Gyermekkorom óta érdekel a számitastechnika es tobb mint 5 éve tanulom es hasznalom a webes alkalmazasok programozasat."
+
+        },
+        "portfolio": {
+            "id": "portfolio",
+            "heading": "this is the portfolio heading",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "images": [1,2,3,4,5,6]
+
+        },
+        "contact": {
+            "id": "contact"
+        }
+
+    }
+}
