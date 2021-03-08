@@ -1,3 +1,3 @@
-import loadJSON from "./modules/jzon.mjs"
+import Portfolio from "./modules/loadDataFromJSON.mjs"
 
-loadJSON('modules/data.json')
+new Portfolio('modules/data.json')

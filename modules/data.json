@@ -15,7 +15,8 @@
 
         },
         "contact": {
-            "id": "contact"
+            "id": "contact",
+            "heading": "Contact me"
         }
 
     }
