@@ -1,3 +1,5 @@
-import Portfolio from "./modules/loadDataFromJSON.mjs"
+import Portfolio from "./modules/main.mjs"
+
+
 
 new Portfolio('modules/data.json')

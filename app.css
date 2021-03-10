@@ -1,0 +1,30 @@
+/* :root {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+
+
+}
+
+body {
+    width: 300vw;
+    height: 100vh;
+    overflow-y: hidden;
+    font-size: 62.5%;
+
+
+}
+section {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+section:nth-child(2) {
+    background: red;
+} */

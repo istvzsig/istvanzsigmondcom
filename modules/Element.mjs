@@ -12,8 +12,5 @@ export default class Element {
         this.id !== 0 ? el.id = this.id : false;
         this.where.appendChild(el);
         this.text !== undefined ? el.innerText = this.text : false;
-        // el.innerText = this.text
-        return el
     }
-
 }

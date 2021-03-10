@@ -9,6 +9,7 @@ export default class Portfolio {
         this.createFromJSON()
 
     }
+    
     createFromJSON() {
         return fetch(this.url)
             .then(result => result.json()) // make json object
@@ -16,7 +17,7 @@ export default class Portfolio {
                 [data.sections.home, data.sections.portfolio, data.sections.contact] //
                     .forEach(SECTION => {
 
-                        const section = new Element('div', SECTION.id, document.body)
+                        const section = new Element('section', SECTION.id, document.body)
 
                         SECTION.heading ?
                             new Element('h1', 0, selector(SECTION.id), SECTION.heading)
